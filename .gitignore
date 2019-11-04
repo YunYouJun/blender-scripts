@@ -1,3 +1,16 @@
+# custom
+# 3d format
+*.gltf
+*.bin
+*.jpg
+*.glb
+
+*.fbx
+*.stl
+*.obj
+*.blend
+
+# ---
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
