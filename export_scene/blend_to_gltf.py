@@ -6,7 +6,7 @@ __version__ = 0.1
 
 def main():
     filename = get_filename()
-    bpy.ops.export_scene.gltf(filepath=filename)
+    bpy.ops.export_scene.gltf(filepath='./exported/' + filename)
     # default to cur folder
 
 def get_filename():
@@ -18,4 +18,4 @@ if __name__ == '__main__':
     main()
 
 # Example:
-# blender -b ../imported/airship.blend --python blend_to_gltf.py
+# blender -b ./imported/airship.blend --python ./export_scene/blend_to_gltf.py

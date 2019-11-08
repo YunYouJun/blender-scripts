@@ -1,13 +1,18 @@
 # custom
+.DS_Store
+
 # 3d format
 *.gltf
 *.bin
 *.jpg
 *.glb
 
+*.abc
+*.dae
 *.fbx
-*.stl
 *.obj
+*.ply
+*.stl
 *.blend
 
 # ---
