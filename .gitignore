@@ -1,5 +1,6 @@
 # custom
 .DS_Store
+!empty.blend
 
 # 3d format
 *.gltf

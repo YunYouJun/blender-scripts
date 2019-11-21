@@ -1,3 +1,6 @@
+# Example:
+# blender -b ./imported/airship.blend --python ./export_to_gltf/blend_to_gltf.py
+
 import bpy
 import sys
 import os.path
@@ -16,6 +19,3 @@ def get_filename():
 
 if __name__ == '__main__':
     main()
-
-# Example:
-# blender -b ./imported/airship.blend --python ./export_scene/blend_to_gltf.py
